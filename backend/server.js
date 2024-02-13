@@ -13,6 +13,11 @@ const port = process.env.PORT;
 
 const app = express();
 
+
+//BODY parser middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 /* app.get('/', (req, res) => {
      res.send('Api is running'); 
     });   */
