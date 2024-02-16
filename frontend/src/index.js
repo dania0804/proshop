@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './assets/styles/index.css';
 import './assets/styles/bootstrap.custom.css'
 import App from './App';
+
+import 'boosted/dist/css/boosted.css'
+import 'boosted/dist/js/boosted.js'
+
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
